@@ -14,8 +14,13 @@ public class HelloWorld{
         Mike.setIsPaid(false);
         Mike.orderUp();
         
-        Chef Willy = new Chef("Willy");
+        Chef Willy = new Chef("Willy", John.getOrder());
         Willy.greet();
+        Willy.cook();
+        
+        Chef Bobby = new Chef("Bobby", Mike.getOrder());
+        Bobby.greet();
+        Bobby.cook();
         
      }
 }

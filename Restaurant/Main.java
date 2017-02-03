@@ -14,5 +14,8 @@ public class HelloWorld{
         Mike.setIsPaid(false);
         Mike.orderUp();
         
+        Chef Willy = new Chef("Willy");
+        Willy.greet();
+        
      }
 }

@@ -3,10 +3,7 @@ public class Registery {
     
     public void registerItem(String unlocalizedName){
        unlocalizedName = name;
-    }
-    
-    public void init(){
-        System.out.println(name + " is initialized\n");
+       System.out.println(name + " is registered.");
     }
     
     

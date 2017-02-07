@@ -6,7 +6,7 @@ public class Reference{
     public final String MINECRAFTVERSION = "1.10.2";
     
     public void init(){
-        System.out.println(MODID + "\n Name:" + NAME + "\n Version: " + VERSION + "\n Minecraft Version: " + MINECRAFTVERSION + "\n");
+        System.out.println("\n " + MODID + "\n Name:" + NAME + "\n Version: " + VERSION + "\n Minecraft Version: " + MINECRAFTVERSION + "\n");
     }
     
 }

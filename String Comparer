@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    //Loop Variables
+    int keepGoingAnswer;
+    bool keepGoing = true;
+    
+    while (keepGoing == true){
+    string first;
+    string second;
+   cout << "Welcome to my length comparer. It will compare the length of two sentences." << endl; 
+   cout << "Insert Your First Sentence: ";
+   cin >> first;
+   cout << endl << "Insert Your Second Sentence: ";
+   cin >> second;
+   int length1 = first.length();
+   int length2 = second.length();
+   cout << " Sentence 1 is " + length1 + " characters long." << endl;
+   cout << " Sentence 2 is " + length2 + " characters long." << endl;
+   
+   
+   //End Loop
+   cout << "Would you like to continue, if not type in 0." << endl;
+   cin >> keepGoingAnswer;
+   if (keepGoingAnswer == 0){
+       keepGoing = false;
+       return 0;
+   }
+   
+}
+    
+}
+
